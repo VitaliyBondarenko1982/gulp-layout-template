@@ -6,7 +6,7 @@
   "scripts": {
     "start": "gulp",
     "build": "gulp build",
-    "lint": "eslint src/**/*.js"
+    "lint": "eslint src/**/*.js && htmllint --rc ./.htmllintrc src/*.html"
   },
   "author": "Vitalii Bondarenko",
   "license": "ISC",
@@ -23,7 +23,8 @@
     "eslint-plugin-n": "^15.6.0",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-standard": "^5.0.0",
-    "gulp": "^4.0.2"
-  },
-  "dependencies": {}
+    "gulp": "^4.0.2",
+    "htmllint": "^0.7.2",
+    "htmllint-cli": "^0.0.7"
+  }
 }
