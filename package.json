@@ -1,0 +1,11 @@
+{
+  "name": "gulp-layout-template",
+  "version": "1.0.0",
+  "description": "Frontend boilerplate based on Gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vitalii Bondarenko",
+  "license": "ISC"
+}
