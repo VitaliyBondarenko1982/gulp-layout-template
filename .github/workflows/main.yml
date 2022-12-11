@@ -11,7 +11,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [16.x]
+        node-version: [18.12.1]
 
     steps:
       - uses: actions/checkout@v3
@@ -21,10 +21,10 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: Install dependencies
-        run: npm i --force
+        run: yarn
 
       - name: Build the app
-        run: npm run build
+        run: yarn build
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
