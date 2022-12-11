@@ -6,7 +6,8 @@
   "scripts": {
     "start": "gulp",
     "build": "gulp build",
-    "lint": "stylelint src/**/*.scss && eslint src/**/*.js && htmllint --rc ./.htmllintrc src/*.html"
+    "lint": "stylelint src/**/*.scss && eslint src/**/*.js && htmllint --rc ./.htmllintrc src/*.html",
+    "prepare": "husky install"
   },
   "author": "Vitalii Bondarenko",
   "license": "ISC",
@@ -37,6 +38,7 @@
     "gulp-stylelint": "^13.0.0",
     "htmllint": "^0.7.2",
     "htmllint-cli": "^0.0.7",
+    "husky": "^8.0.2",
     "node-sass": "^8.0.0",
     "stylelint": "^14.16.0",
     "stylelint-config-recommended-scss": "^8.0.0",
